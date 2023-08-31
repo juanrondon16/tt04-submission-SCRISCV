@@ -7,16 +7,16 @@ project:
 # Source files must be in ./src and you must list each source file separately
   source_files:        
     - ALU.v
-ALUDecoder.v
-ControlUnit.v
-Extend.v
-InputBlock.v
-LEDBlock.v
-MainDecoder.v
-MemoriaPrograma.mem
-RAM.v
-ROM.v
-RegisterFile.v
+    - ALUDecoder.v
+    - ControlUnit.v
+    - Extend.v
+    - InputBlock.v
+    - LEDBlock.v
+    - MainDecoder.v
+    - RAM.v
+    - ROM.v
+    - RegisterFile.v
+    
   top_module:  "tt_um_example"      # Put the name of your top module here, must start with "tt_um_". Make it unique by including your github username
 
 # How many tiles your design occupies? A single tile is about 167x108 uM.
