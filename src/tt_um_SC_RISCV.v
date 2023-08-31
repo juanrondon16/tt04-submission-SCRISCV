@@ -9,6 +9,9 @@ module tt_um_SC_RISCV(
     input  wire       rst_n                                 
 );
 
+assign uio_out = 8'b11111111;
+assign uio_oe = 8'b11111111;
+
 wire reset = ui_in[0];
 wire [4:0] sw = ui_in[5:1];
 wire IR = ui_in[6];
